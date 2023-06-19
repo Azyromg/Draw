@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Draw", "Draw\Draw.csproj", "{DA1DC0FB-E3CD-4E78-AC8B-8B6D4E905D4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnToDraw", "LearnToDraw\LearnToDraw.csproj", "{1F3ADFD6-4372-410A-A791-A380626C3999}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Button", "Button\Button.csproj", "{CEC7C3BD-85DF-4AE5-A776-3B17392C2BB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{A8A16B49-1693-4634-85F0-F32EC4CF28DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA1DC0FB-E3CD-4E78-AC8B-8B6D4E905D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1DC0FB-E3CD-4E78-AC8B-8B6D4E905D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1DC0FB-E3CD-4E78-AC8B-8B6D4E905D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1DC0FB-E3CD-4E78-AC8B-8B6D4E905D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F3ADFD6-4372-410A-A791-A380626C3999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3ADFD6-4372-410A-A791-A380626C3999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3ADFD6-4372-410A-A791-A380626C3999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3ADFD6-4372-410A-A791-A380626C3999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC7C3BD-85DF-4AE5-A776-3B17392C2BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC7C3BD-85DF-4AE5-A776-3B17392C2BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC7C3BD-85DF-4AE5-A776-3B17392C2BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC7C3BD-85DF-4AE5-A776-3B17392C2BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A16B49-1693-4634-85F0-F32EC4CF28DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A16B49-1693-4634-85F0-F32EC4CF28DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A16B49-1693-4634-85F0-F32EC4CF28DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A16B49-1693-4634-85F0-F32EC4CF28DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54730145-F11E-4F44-A571-A8A5856BBCCF}
+	EndGlobalSection
+EndGlobal

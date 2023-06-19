@@ -1,0 +1,20 @@
+﻿<Window x:Class="LearnToDraw.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LearnToDraw"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas x:Name="canvas" Background ="Transparent" Margin="0,42,0,0"/>
+        <Button x:Name="button1" Content="Квадрат" Click="button1_Click" Margin="39,1,713,413"/>
+        <Button x:Name="button2" Content="Clear" HorizontalAlignment="Left" VerticalAlignment="Top" Click="button2_Click" Margin="92,1,0,0"/>
+        <Button x:Name="button3" Content="Круг" HorizontalAlignment="Left" VerticalAlignment="Top" Width="43" Click="Button_Click" Margin="123,0,0,0"/>
+        <Button x:Name="button4" Content="Слон" Click="button4_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="166,0,0,0"/>
+        <Button x:Name="button5" Content="Отрезки&#xA;" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Click="button5_Click" Margin="203,0,0,0"/>
+        <Button x:Name="button6" Content="Загрузка" Click="button6_Click" Margin="253,6,496,408"/>
+        <Button x:Name="button7" Content="Звезда" Click="button7_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="304,0,0,0"/>
+    </Grid>
+
+</Window>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="Draw.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Draw"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas x:Name="DrawingTarget" Background ="Transparent" MouseLeftButtonDown="Canvas_MouseLeftButtonDown" MouseMove="DrawingTarget_MouseMove" MouseUp="DrawingTarget_MouseUp" MouseLeftButtonUp="DrawingTarget_MouseLeftButtonUp">
+            <Button x:Name="button1" Content="Красный" Canvas.Left="21" Click="button1_Click" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button x:Name="button2" Content="Синий" Canvas.Left="73" HorizontalAlignment="Left" VerticalAlignment="Center" Click="button2_Click"/>
+            <Button x:Name="button3" Content="Черный" Canvas.Left="112" Click="button3_Click" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button x:Name="button4" Content="Зеленый" Canvas.Left="160" HorizontalAlignment="Left" VerticalAlignment="Center" Click="button4_Click"/>
+            <Button x:Name="button5" Content="Ластик" Canvas.Left="212" Click="button5_Click"/>
+        </Canvas>
+    </Grid>
+</Window>
